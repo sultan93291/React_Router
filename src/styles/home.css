@@ -9,6 +9,7 @@
   justify-content: center;
   align-content: center;
   position: relative;
+  
 }
 
 .container {
@@ -29,4 +30,20 @@
   font-size: 38px;
   text-transform: uppercase;
   text-align: center;
+  word-spacing: 15px;
+  font-family: sans-serif;
+}
+.container h1.CError{
+  position: relative;
+}
+.container h1.CError::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 15%;
+  margin-bottom: -20px;
+  height: 2px;
+  width: 70%;
+  background-color: #fff;
 }

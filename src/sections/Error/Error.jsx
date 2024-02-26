@@ -8,7 +8,7 @@ const Error = () => {
         <div className="container">
           {/* <h1>404 not found</h1> */}
           <Heading
-            className={""}
+            className={"CError"}
             text={"404 not found"}
             TagName={"h1"}
           />

@@ -1,0 +1,74 @@
+/* navbar css  */
+
+#nav {
+  height: 80px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  font-family: sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+}
+ul li a {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+}
+ul li a.active {
+  color: red;
+}
+.logo {
+  font-size: 28px;
+  color: white;
+  font-family: sans-serif;
+}
+.menu_wrapper{
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  height: 40px;
+  width: 200px;
+  position: relative;
+}
+#input {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 0 20px;
+  opacity: 0.8;
+}
+#input::placeholder {
+  color: black;
+}
+
+.search {
+  color: red;
+  position: absolute;
+  right: 0;
+  margin-right: 15px;
+  font-size: 20px;
+  color: #222;
+  opacity: 0.8;
+  cursor: pointer;
+}

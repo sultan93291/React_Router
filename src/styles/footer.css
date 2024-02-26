@@ -1,0 +1,14 @@
+#footer {
+  height: 80px;
+  width: auto;
+  padding: 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+#footer p {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 400;
+}

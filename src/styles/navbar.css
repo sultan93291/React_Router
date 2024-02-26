@@ -55,7 +55,8 @@ form {
   color: black;
   font-size: 14px;
   text-transform: capitalize;
-  padding: 0 20px;
+  padding-left: 20px;
+  padding-right: 40px;
   opacity: 0.8;
 }
 #input::placeholder {
